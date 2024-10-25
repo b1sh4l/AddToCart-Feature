@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Order</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="assets/images/logo.svg"
+        alt="Restaurant Logo"
+        style="width: 40px; height: 40px"
+      />
+      <nav class="nav-links">
+        <a href="#">MENU</a>
+        <a href="#">REWARDS</a>
+        <a href="#">LOCATIONS</a>
+        <a href="#">GIFT CARDS</a>
+        <a href="#">LOG IN</a>
+      </nav>
+      <div style="display: flex; align-items: center">
+        <div class="cart-icon">
+          <i class="fa-solid fa-cart-shopping fa-2x" style="color: #000000"></i>
+          <span class="cart-count">0</span>
+        </div>
+        <button class="order-btn">ORDER NOW</button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <h1 class="page-title">CHICKEN CRISPER® COMBOS</h1>
+      <div class="breadcrumb">Menu > Chicken Crisper® Combos</div>
+      <p class="description">
+        Find everything from our Big Mouth Burgers®, our always sizzling,
+        Full-on Fajitas and our famous Chicken Crispers®
+      </p>
+
+
+      <div class="menu-grid">
+        <div class="menu-item">
+          <span class="new-tag">NEW</span>
+          <img src="assets/images/chicken.jpg" alt="Chicken" />
+          <div class="item-content">
+            <h3 class="item-title">Chicken</h3>
+            <p class="item-price">69$/each</p>
+            <p class="item-description">
+              Chicken Fajitas served with rice and beans, tortillas, guacamole,
+              salsa and sour cream
+            </p>
+            <div class="action-buttons">
+              <button class="add-btn">Add to Order</button>
+              <button class="customize-btn">Customize</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <span class="new-tag">NEW</span>
+          <img src="assets/images/fajitas.jpg" alt="Fajitas" />
+          <div class="item-content">
+            <h3 class="item-title">Fajitas</h3>
+            <p class="item-price">169$/each</p>
+            <p class="item-description">
+              Chicken Fajitas served with rice and beans, tortillas, guacamole,
+              salsa and sour cream
+            </p>
+            <div class="action-buttons">
+              <button class="add-btn">Add to Order</button>
+              <button class="customize-btn">Customize</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <span class="new-tag">NEW</span>
+          <img src="assets/images/masala.jpg" alt="Chicken Masala" />
+          <div class="item-content">
+            <h3 class="item-title">Chicken Masala</h3>
+            <p class="item-price">269$/each</p>
+            <p class="item-description">
+              Chicken Fajitas served with rice and beans, tortillas, guacamole,
+              salsa and sour cream
+            </p>
+            <div class="action-buttons">
+              <button class="add-btn">Add to Order</button>
+              <button class="customize-btn">Customize</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="cart-sidebar">
+        <div class="cart-header">
+          <div class="cart-icon">
+            <i
+              class="fa-solid fa-cart-shopping fa-2x"
+              style="color: #000000"
+            ></i>
+          </div>
+          <button class="close-cart">Close</button>
+        </div>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+          Place Order<span id="total-price">0.00</span>$
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
