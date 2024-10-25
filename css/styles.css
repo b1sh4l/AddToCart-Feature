@@ -195,11 +195,13 @@
   font-size: 0.8rem;
   cursor: pointer;
   padding: 5px;
+  transition: 0.5s;
 }
 
 .close-cart:hover {
   color: #ffffff;
   background-color: #ff5c4c;
+  transition: 0.5s;
 }
 
 .cart-item {
@@ -277,11 +279,14 @@
   border-top: 1px solid #eee;
   display: flex;
   justify-content: center;
+  transition: 0.5s;
+
 }
 
 .cart-total:hover {
   color: #ffffff;
   background-color: #ff5c4c;
+  transition: 0.5s;
 }
 
 #total-price {
