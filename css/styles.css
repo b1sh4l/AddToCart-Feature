@@ -71,11 +71,15 @@
   margin-bottom: 3rem;
 }
 
+.breadcrumb-text {
+  color: #ff5c4c;
+}
+
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -88,14 +92,17 @@
 }
 
 .new-tag {
-  position: absolute;
-  top: 1rem;
-  left: -1rem;
-  background: #ff5c4c;
-  color: white;
-  padding: 0.25rem 1rem;
-  transform: rotate(-45deg);
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+    background: #ff5c4c;
+    color: white;
+    padding: 0.25rem 1rem;
+    transform: rotate(-45deg);
+    border-radius: 0.5rem;
+    white-space: nowrap;
 }
+
 
 .menu-item img {
   width: 100%;
