@@ -196,6 +196,20 @@
   background-color: white;
 }
 
+.cart-header span {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.inside-cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ff5c4c;
+}
+
 .close-cart {
   background: none;
   border: 1px solid #ff5c4c;
@@ -204,13 +218,13 @@
   font-size: 0.8rem;
   cursor: pointer;
   padding: 5px;
-  transition: 0.5s;
+  transition: all 0.3s ease;
 }
 
 .close-cart:hover {
   color: #ffffff;
   background-color: #ff5c4c;
-  transition: 0.5s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .cart-item {

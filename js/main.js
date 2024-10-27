@@ -4,6 +4,7 @@ const cartItemsElement = document.getElementById("cart-items");
 const totalPriceElement = document.getElementById("total-price");
 const overlay = document.querySelector(".overlay");
 const cartCountElement = document.querySelector(".cart-count");
+const insideCartCountElement = document.querySelector(".inside-cart-count");
 
 document.querySelector(".cart-icon").addEventListener("click", function () {
   cartSidebar.classList.add("active");
@@ -84,6 +85,7 @@ function updateCart() {
 
   totalPriceElement.textContent = total.toFixed(2);
   cartCountElement.textContent = itemCount;
+  insideCartCountElement.textContent = itemCount;
 
   attachCartEventListeners();
 }
