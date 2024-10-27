@@ -62,18 +62,23 @@ function updateCart() {
       total += itemSubtotal;
       itemCount += item.quantity;
       cartItemsElement.innerHTML += `
+      
                       <div class="cart-item">
-                          <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+                      <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+                      
+                          
                           <div class="cart-item-details">
-                              <p>${item.name} - $${item.price}/each</p>
-                              <p class="item-subtotal">Subtotal: $${itemSubtotal.toFixed(2)}</p>
-                          </div>
-                          <div class="quantity-controls">
+                              <p class="item-name">${item.name}</p>
+                              <p class="item-price">$${item.price}/each</p>
+                              <div class="quantity-controls">
                               <button class="decrease-quantity" data-id="${item.id}">-</button>
                               <span>${item.quantity}</span>
                               <button class="increase-quantity" data-id="${item.id}">+</button>
-                              <button class="remove-item" data-id="${item.id}"><i class="fas fa-trash"></i></button>
+                              <div class="item-subtotal">
+                              <p class="item-subtotal">${itemSubtotal.toFixed(2)}$</p>
+                              </div>
                           </div>
+                          <button class="remove-item" data-id="${item.id}"><i class="fas fa-trash"></i></button>
                       </div>
                   `;
     });
