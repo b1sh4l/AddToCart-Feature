@@ -51,43 +51,42 @@ document.querySelectorAll(".add-btn").forEach((button) => {
 });
 
 function updateCart() {
-    cartItemsElement.innerHTML = "";
-    let subtotal = 0;
-    let total = 0;
-    let itemCount = 0;
-  
-    cart.forEach((item) => {
-      const itemSubtotal = item.price * item.quantity;
-      subtotal += itemSubtotal;
-      total += itemSubtotal;
-      itemCount += item.quantity;
-      cartItemsElement.innerHTML += `
+  cartItemsElement.innerHTML = "";
+  let subtotal = 0;
+  let total = 0;
+  let itemCount = 0;
+
+  cart.forEach((item) => {
+    const itemSubtotal = item.price * item.quantity;
+    subtotal += itemSubtotal;
+    total += itemSubtotal;
+    itemCount += item.quantity;
+    cartItemsElement.innerHTML += `
       
                       <div class="cart-item">
-                      <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+                          <img src="${item.image}" alt="${item.name}" class="cart-item-image">
                       
                           
                           <div class="cart-item-details">
                               <p class="item-name">${item.name}</p>
-                              <p class="item-price">$${item.price}/each</p>
+                              <p class="cart-item-price">$${item.price}/each</p>
                               <div class="quantity-controls">
                               <button class="decrease-quantity" data-id="${item.id}">-</button>
                               <span>${item.quantity}</span>
                               <button class="increase-quantity" data-id="${item.id}">+</button>
-                              <div class="item-subtotal">
-                              <p class="item-subtotal">${itemSubtotal.toFixed(2)}$</p>
                               </div>
-                          </div>
                           <button class="remove-item" data-id="${item.id}"><i class="fas fa-trash"></i></button>
+                          <p class="item-subtotal">${itemSubtotal.toFixed(2)}$</p>
                       </div>
+                    </div>
                   `;
-    });
-  
-    totalPriceElement.textContent = total.toFixed(2);
-    cartCountElement.textContent = itemCount;
-  
-    attachCartEventListeners();
-  }
+  });
+
+  totalPriceElement.textContent = total.toFixed(2);
+  cartCountElement.textContent = itemCount;
+
+  attachCartEventListeners();
+}
 
 function attachCartEventListeners() {
   document.querySelectorAll(".increase-quantity").forEach((button) => {
