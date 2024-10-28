@@ -51,5 +51,5 @@ ES6+)** - For asynchronous operations handling cart interactions.
 
 ## Demo
 
-(![demo](https://github.com/user-attachments/assets/2e36c3d2-cdbc-4b4c-b676-2ba55a888bc6)
+![demo](https://github.com/user-attachments/assets/2e36c3d2-cdbc-4b4c-b676-2ba55a888bc6)
 
