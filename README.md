@@ -45,10 +45,11 @@ This project presents a web interface that allows users to browse food items, ad
 ## Technologies Used
 - **HTML5** - For structuring content.
 - **CSS** - Tailwind CSS/Bootstrap for styling.
-- **JavaScript (ES6+)** - For asynchronous operations handling cart interactions.
+- **JavaScript 
+ES6+)** - For asynchronous operations handling cart interactions.
 - **Git** - Version control.
 
 ## Demo
 
-[Here](./assets/demo.gif)
+(![demo](https://github.com/user-attachments/assets/2e36c3d2-cdbc-4b4c-b676-2ba55a888bc6)
 
