@@ -46,7 +46,7 @@ This project presents a web interface that allows users to browse food items, ad
 - **HTML5** - For structuring content.
 - **CSS** - Tailwind CSS/Bootstrap for styling.
 - **JavaScript 
-ES6+)** - For asynchronous operations handling cart interactions.
+(ES6+)** - For asynchronous operations handling cart interactions.
 - **Git** - Version control.
 
 ## Demo
