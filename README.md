@@ -7,13 +7,9 @@ This project is a submission for the Front-end Developer Intern role at Bangla P
 - [Features](#features)
 - [Requirements](#requirements)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
 
-## Project Overview
+## Assignment Overview
 This project presents a web interface that allows users to browse food items, add them to a cart, adjust quantities, calculate total costs, and remove items—all without reloading the page. The implementation emphasizes smooth interactivity and functionality, showcasing essential front-end development skills.
 
 ## Features
@@ -54,11 +50,5 @@ This project presents a web interface that allows users to browse food items, ad
 
 ## Demo
 
-[Click here to view the demo video](./assets/addToCart.mp4)
+[Here](./assets/demo.gif)
 
-## Setup and Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/b1sh4l/Bangla-Puzzle-Limited---Front-end-Developer-Intern-Recruitment-Task.git
-   cd Bangla-Puzzle-Limited---Front-end-Developer-Intern-Recruitment-Task
