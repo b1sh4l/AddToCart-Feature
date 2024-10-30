@@ -3,13 +3,13 @@
 This project is a submission for the Front-end Developer Intern role at Bangla Puzzle Limited. The primary focus is implementing an "Add to Cart" feature with a dynamic sidebar, allowing users to manage food items effectively.
 
 ## Table of Contents
-- [Assignment Overview](#project-overview)
+- [Task Overview](#project-overview)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Technologies Used](#technologies-used)
 - [Demo](#demo)
 
-## Assignment Overview
+## Task Overview
 This project presents a web interface that allows users to browse food items, add them to a cart, adjust quantities, calculate total costs, and remove items—all without reloading the page. The implementation emphasizes smooth interactivity and functionality, showcasing essential front-end development skills.
 
 ## Features
@@ -38,15 +38,13 @@ This project presents a web interface that allows users to browse food items, ad
    - Perform all operations asynchronously, ensuring the page does not reload during any action.
 
 5. **Styling**:
-   - Use Tailwind CSS or Bootstrap for styling.
-   - Responsive design is optional.
+   - Tailwind CSS
    - Avoid using CMS platforms (e.g., WordPress, Wix) or JavaScript frameworks.
 
 ## Technologies Used
 - **HTML5** - For structuring content.
 - **CSS** - Tailwind CSS/Bootstrap for styling.
-- **JavaScript 
-(ES6+)** - For asynchronous operations handling cart interactions.
+- **JavaScript (ES6+)** - For asynchronous operations handling cart interactions.
 - **Git** - Version control.
 
 ## Demo
