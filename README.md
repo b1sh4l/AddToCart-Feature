@@ -1,7 +1,3 @@
-# Bangla Puzzle Limited - Front-end Developer Intern Recruitment Task
-
-This project is a submission for the Front-end Developer Intern role at Bangla Puzzle Limited. The primary focus is implementing an "Add to Cart" feature with a dynamic sidebar, allowing users to manage food items effectively.
-
 ## Table of Contents
 - [Task Overview](#project-overview)
 - [Features](#features)
